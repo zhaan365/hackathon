@@ -1,0 +1,108 @@
+.login{
+  display: flex;
+  justify-content: center;
+  column-gap: 45px;
+  align-items: center;
+  &__left{
+    &-title{
+      color: white;
+      font-weight: 600;
+      font-size: 27px;
+    }
+    &-text{
+      margin: 20px 0 75px;
+      font-size: 15px;
+      line-height: 150%;
+      color: darkgray;
+    }
+    &-text2{
+      margin: 10px 0 55px;
+      font-size: 15px;
+      line-height: 150%;
+      color: darkgray;
+    }
+    &-link{
+      color: white;
+      font-size: 17px;
+    }
+    &-row{
+      //border: yellow solid 1px;
+      width: 410px;
+      display: flex;
+      flex-direction: column;
+      row-gap: 55px;
+    }
+    &-row2{
+      //border: yellow solid 1px;
+      width: 410px;
+      display: flex;
+      flex-direction: column;
+      row-gap: 15px;
+    }
+  }
+  &__field{
+    &-title{
+      color: white;
+      font-size: 17px;
+      margin-bottom: 10px;
+    }
+    &-title2{
+      color: white;
+      font-size: 17px;
+      margin-bottom: 5px;
+    }
+    &-icon{
+      color: white;
+      //border: yellow solid 1px;
+    }
+    &-input{
+      background: transparent;
+      //border: blue solid 1px;
+      border: none;
+      color: white;
+      font-weight: 300;
+      width: 90%;
+      outline: none;
+      font-size: 16px;
+      &::placeholder{
+        font-size: 15px;
+      }
+    }
+    &-row{
+      padding-bottom: 5px;
+      border-bottom: white solid 1px;
+      display: flex;
+      justify-content: space-between;
+      //align-items: center;
+      width: 100%;
+    }
+  }
+  &__btn{
+    width: 100%;
+    padding: 12px 0;
+    border-radius: 20px;
+    background: transparent;
+    border: white solid 3px;
+    color: white;
+    font-size: 16px;
+  }
+  &__btn2{
+    width: 100%;
+    padding: 12px 0;
+    border-radius: 20px;
+    background: transparent;
+    border: white solid 3px;
+    color: white;
+    font-size: 16px;
+    margin-top: 25px;
+  }
+  &__right{
+    //border: green solid 1px;
+    width: 500px;
+    &-img{
+      margin-top: 10px;
+      width: 100%;
+      //border: yellow solid 1px;
+    }
+  }
+}

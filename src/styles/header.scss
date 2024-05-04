@@ -1,0 +1,37 @@
+.header{
+  border-bottom: white solid 2px;
+  background: #740000;
+  padding: 10px 0;
+  //position: fixed;
+  //top: 0px;
+  //z-index: 1;
+  width: 100%;
+  &__img{
+    width: 50px;
+    //border-radius: 50%;
+  }
+  &__menu{
+    //border: yellow solid 2px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+    &-link{
+      color: white;
+
+    }
+  }
+  &__user{
+    color: white;
+    &-users{
+      width: 25px;
+      height: 25px;
+    }
+  }
+  &__row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}

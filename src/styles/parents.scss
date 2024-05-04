@@ -1,0 +1,42 @@
+.parents{
+  padding-bottom: 50px;
+  &__title{
+    color: white;
+    text-align: center;
+    margin: 20px 0 50px;
+  }
+  &__row{
+    margin-top: 15px;
+    //border: yellow solid 2px;
+    height: 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &-title{
+      color: white;
+    }
+    &-title2{
+      text-align: right;
+      color: white;
+    }
+    &-row{
+      //border: blue solid 1px;
+      padding: 0 15px;
+    }
+    &-text{
+      color: darkgray;
+    }
+    &-img{
+      width: 160px;
+      //border: green solid 1px;
+    }
+    &-input{
+      outline: none;
+      border: none;
+      font-weight: 600;
+      padding: 4px 10px;
+      width: 100%;
+      margin-top: 5px;
+    }
+  }
+}

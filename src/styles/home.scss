@@ -1,0 +1,120 @@
+.home{
+  padding: 10px 0 70px;
+  //margin-top: 45px;
+  &__one{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    //border: green solid 2px;
+    padding: 40px 0;
+  }
+  &__left{
+    //border: blue solid 2px;
+    width: 70%;
+    &-title{
+      margin-left: 50px;
+      text-align: center;
+      color: white;
+      //border: yellow solid 2px;
+      position: relative;
+      max-width: max-content;
+    }
+    &-box1{
+      position: absolute;
+      top: -15px;
+      left: -20px;
+      width: 50px;
+      height: 50px;
+      border-left: white solid 3px;
+      border-top: white solid 3px;
+    }
+    &-box2{
+      bottom: -15px;
+      right: -15px;
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      border-right: white solid 3px;
+      border-bottom: white solid 3px;
+    }
+    &-text{
+
+      color: white;
+      font-size: 16px;
+      margin-top: 55px;
+      line-height: 220%;
+      span{
+        font-size: 32px;
+        font-weight: 600;
+      }
+    }
+  }
+  &__right{
+    width: 70%;
+    height: 450px;
+    //border: yellow solid 2px;
+    position: relative;
+    &-img{
+      width: 300px;
+    }
+    &-img1{
+
+    }
+    &-img2{
+      position: absolute;
+      bottom: 55px;
+      right: -25px;
+    }
+    &-img3{
+      position: absolute;
+      bottom: -10px;
+      left: 45px;
+    }
+  }
+  &__title{
+    color: white;
+    text-align: center;
+    margin-top: 65px;
+  }
+  &__row{
+    //border: blue solid 2px;
+    margin-top: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 120px;
+  }
+  &__card{
+    background: white;
+    border: white solid 3px;
+    width: 220px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    position: relative;
+    transition:all 0.3s ease-in-out;
+    &-img{
+      width: 100%;
+      //border: green solid 2px;
+    }
+    &-title{
+      position: absolute;
+      bottom: 2px;
+      left: 50%;
+      transform: translateX(-50%);
+      border-top: #740000 solid 3px;
+      width: 110%;
+      font-size: 20px;
+      padding-top: 12px;
+
+      font-weight: 600;
+      text-align: center;
+      color: black;
+    }
+  }
+  &__card:hover{
+    transform: translateY( 45px);
+
+  }
+}
